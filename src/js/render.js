@@ -150,11 +150,11 @@ export default {
         naturalWidth,
         naturalHeight,
         aspectRatio,
-        ratio: width / naturalWidth,
-        width,
-        height,
-        left: (viewerWidth - width) / 2,
-        top: (viewerHeight - height) / 2,
+        ratio: 1,
+        naturalWidth,
+        naturalHeight,
+        left: (viewerWidth - naturalWidth) / 2,
+        top: (viewerHeight - naturalHeight) / 2,
       };
       const initialImageData = $.extend({}, imageData);
 

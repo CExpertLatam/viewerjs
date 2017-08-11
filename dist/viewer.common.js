@@ -885,11 +885,11 @@ var render$1 = {
         naturalWidth: naturalWidth,
         naturalHeight: naturalHeight,
         aspectRatio: aspectRatio,
-        ratio: width / naturalWidth,
-        width: width,
-        height: height,
-        left: (viewerWidth - width) / 2,
-        top: (viewerHeight - height) / 2
+        ratio: 1,
+        width: naturalWidth,
+        height: naturalHeight,
+        left: (viewerWidth - naturalWidth) / 2,
+        top: (viewerHeight - naturalHeight) / 2
       };
       var initialImageData = extend({}, imageData);
 
